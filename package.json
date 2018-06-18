@@ -1,0 +1,24 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "M,V 결합은 느슨 ======> 유지보수",
+  "main": "FoldingView.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorfati0310/mvcPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amorfati0310/mvcPractice/issues"
+  },
+  "homepage": "https://github.com/amorfati0310/mvcPractice#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

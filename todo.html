@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>todo mvc</title>
+  <link rel="stylesheet" href="./style/todo.css">
+</head>
+<body>
+  <div class="wrapper">
+      <article class="todo-app">
+          <form class="user-form">
+              <label>오늘 ToDo :3</label>
+              <div class="input-box">
+                <input type="text" name="todo" placeholder="오늘 뭐할꺼냥?">
+                <button type="submit">+</button>    
+              </div>
+          </form>
+          <div class="folding">
+            <div class="counts-box">
+                <span class="complete-count"></span><span class="divide">/</span><span class="total-count"></span>
+            </div>
+            <ul class="todo-list">
+               
+              <!-- 템플릿으로 렌더링 <li>할</li> -->
+            </ul>
+          </div>
+        </article>
+  </div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

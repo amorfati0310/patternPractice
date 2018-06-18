@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+  height: 40px;
+  color: #fff;
+  background: #343a40;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #343a40;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.input-box {
+  display: flex;
+
+}
+
+button {
+ border-radius: 10px; 
+ font-size: 20px;
+ width: 40px;
+ height: 40px;
+}
+.hidden {
+  visibility: hidden;
+}
+label {
+  margin-right: 10px;
+}
+form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  padding: 11px 10px 11px 13px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form button {
+  border-radius: 0 10px 10px 0px;
+  background-color: #364fc7;
+  color: #fff;
+}
+
+
+.complete-btn,.delete-btn {
+  border-radius: 50%;
+}
+.delete-btn {
+  visibility: hidden;
+  color: red;
+}
+li:hover .delete-btn{
+  visibility: initial;
+}
+
+.completed {
+  text-decoration-line: line-through;
+}
